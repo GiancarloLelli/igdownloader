@@ -1,8 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Authors>Giancarlo Lelli</Authors>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>igdown</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <Product>Instagram Image Downloader</Product>
+    <RepositoryUrl>https://github.com/GiancarloLelli/igdownloader</RepositoryUrl>
+    <Description>.NET CLI Tool to images from Instagram</Description>
+    <Copyright>Giancarlo Lelli</Copyright>
+    <PackageProjectUrl>https://github.com/GiancarloLelli/igdownloader</PackageProjectUrl>
+    <License>https://github.com/GiancarloLelli/igdownloader/blob/master/LICENSE</License>
+    <PackageTags>cli, dotnet, instagram</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
